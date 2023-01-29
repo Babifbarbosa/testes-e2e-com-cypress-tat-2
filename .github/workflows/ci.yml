@@ -30,6 +30,7 @@ jobs:
           CYPRESS_USER_PASSWORD: ${{ secrets.CYPRESS_USER_PASSWORD }}
           CYPRESS_MAILOSAUR_SERVER_ID: ${{ secrets.CYPRESS_MAILOSAUR_SERVER_ID }}
           CYPRESS_MAILOSAUR_API_KEY: ${{ secrets.CYPRESS_MAILOSAUR_API_KEY }}
+          CYPRESS_RECORD_KEY: e94b3f96-2124-4bd2-bd1e-57e1283a81d8
         with:
           command: npm test
   cypress-tests-tablet:
@@ -45,5 +46,6 @@ jobs:
         env:
           CYPRESS_USER_EMAIL: ${{ secrets.CYPRESS_USER_EMAIL }}
           CYPRESS_USER_PASSWORD: ${{ secrets.CYPRESS_USER_PASSWORD }}
+          CYPRESS_RECORD_KEY: e94b3f96-2124-4bd2-bd1e-57e1283a81d8
         with:
           command: npm run test:tablet

@@ -3,6 +3,7 @@
   "experimentalSessionSupport": true,
   "chromeWebSecurity": false,
   "experimentalStudio": true,
+  "projectId": "npv8kf",
   "env": {
     "viewportWidthBreakpoint": 768
   }
